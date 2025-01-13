@@ -1,0 +1,57 @@
+@charset "utf-8";
+main {
+  width: 380px;
+  margin: 32px auto 0;
+  box-shadow: 0 0 8px black;
+  border-radius: 8px;
+  padding:16px;
+}
+
+p{
+  margin:0;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  padding:16px 0;
+}
+
+button {
+all: unset;
+color:white;
+width:100%;
+background: blue;
+border-radius: 8px;
+text-align: center;
+padding:12px 0;
+margin-top:16px;
+cursor: pointer;
+}
+
+button:hover{
+  opacity: .6;
+}
+
+button:active{
+  opacity:.4;
+}
+
+fieldset {
+  border: 1px dashed black;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top:16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+legend{
+  padding: 0 8px;
+}
+
+#pwLength{
+  width:24px;
+  display:inline-block;
+  text-align: center;
+}
