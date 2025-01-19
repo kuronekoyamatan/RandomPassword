@@ -1,15 +1,22 @@
 @charset "utf-8";
+
+body{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
 main {
-  width: 380px;
+  width: 375px;
   margin: 32px auto 0;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
   border-radius: 8px;
-  padding:16px;
+  padding:14px;
 }
 
 p{
   margin:0;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -19,9 +26,10 @@ p{
 
 button {
 all: unset;
-color:white;
+color:rgb(0, 0, 0);
 width:100%;
-background: blue;
+background-color: rgba(0, 255, 255, 0.8);
+box-shadow: 0px 0 10px rgb(255, 255, 255);
 border-radius: 8px;
 text-align: center;
 padding:12px 0;
@@ -30,7 +38,7 @@ cursor: pointer;
 }
 
 button:hover{
-  opacity: .6;
+  opacity: .5;
 }
 
 button:active{
@@ -38,7 +46,7 @@ button:active{
 }
 
 fieldset {
-  border: 1px dashed black;
+  border: 1px dashed rgb(255, 255, 255);
   border-radius: 8px;
   padding: 16px;
   margin-top:16px;
