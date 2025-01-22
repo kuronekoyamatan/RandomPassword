@@ -7,14 +7,14 @@ body{
 }
 
 main {
-  width: 375px;
+  width: 350px;
   margin: 32px auto 0;
   box-shadow: 0 0 8px rgb(255, 255, 255);
   border-radius: 8px;
-  padding:14px;
+  padding:5px;
 }
 
-p{
+p#result{
   margin:0;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
@@ -51,7 +51,8 @@ fieldset {
   padding: 16px;
   margin-top:16px;
   display: flex;
-  justify-content: space-between;
+
+  font-size: 12px;
 }
 
 legend{
@@ -62,4 +63,10 @@ legend{
   width:24px;
   display:inline-block;
   text-align: center;
+}
+
+.text {
+  font-size: 9px;
+  text-align: center;
+  margin: 20px;
 }
