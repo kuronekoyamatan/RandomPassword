@@ -4,7 +4,7 @@ body {
   font-size: 12px;
   font-family: 'Kaisei Decol', serif;
   font-family: 'Kaisei Opti', serif;
-  background-color: rgba(112, 151, 126, 0.587);
+  background-color: rgb(129, 156, 139);
   color: #393939;
   font-size: 16px;
 }
@@ -30,7 +30,7 @@ button {
   all: unset;
   color: #393939;
   width: 100%;
-  background-color: rgba(184, 229, 255, 0.71);
+  background-color: rgb(184, 229, 255);
   box-shadow: 2px 2px 0px #393939;
   border-radius: 8px;
   text-align: center;
