@@ -1,67 +1,69 @@
 @charset "utf-8";
 
-body{
-  background-color: black;
-  color: white;
+body {
   font-size: 12px;
+  font-family: 'Kaisei Decol', serif;
+  font-family: 'Kaisei Opti', serif;
+  background-color: rgba(112, 151, 126, 0.587);
+  color: #393939;
+  font-size: 16px;
 }
+
 
 main {
-  width: 350px;
-  margin: 32px auto 0;
-  box-shadow: 0 0 8px rgb(255, 255, 255);
+  width: 330px;
+  margin: 60px auto;
   border-radius: 8px;
-  padding:5px;
+  padding: 5px;
 }
 
-p#result{
-  margin:0;
-  border: 1px solid rgb(255, 255, 255);
+p#result {
+  margin: 0;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 24px;
-  padding:16px 0;
+  font-size: 18px;
+  padding: 16px 0;
 }
 
 button {
-all: unset;
-color:rgb(0, 0, 0);
-width:100%;
-background-color: rgba(0, 255, 255, 0.8);
-box-shadow: 0px 0 10px rgb(255, 255, 255);
-border-radius: 8px;
-text-align: center;
-padding:12px 0;
-margin-top:16px;
-cursor: pointer;
+  all: unset;
+  color: #393939;
+  width: 100%;
+  background-color: rgba(184, 229, 255, 0.71);
+  box-shadow: 2px 2px 0px #393939;
+  border-radius: 8px;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
-button:hover{
-  opacity: .5;
+button:hover {
+  opacity: 0.5;
 }
 
-button:active{
-  opacity:.4;
+button:active {
+  opacity: 0.4;
 }
 
 fieldset {
-  border: 1px dashed rgb(255, 255, 255);
+  border: 1px dashed #ffffff;
   border-radius: 8px;
   padding: 16px;
-  margin-top:16px;
+  margin-top: 16px;
   display: flex;
-
   font-size: 12px;
 }
 
-legend{
+legend {
   padding: 0 8px;
 }
 
-#pwLength{
-  width:24px;
-  display:inline-block;
+#pwLength {
+  width: 24px;
+  display: inline-block;
   text-align: center;
 }
 
@@ -69,4 +71,35 @@ legend{
   font-size: 9px;
   text-align: center;
   margin: 20px;
+}
+
+/* スライダーのトラック*/
+#slider {
+  -webkit-appearance: none;
+  height: 10px;
+  background: #393939; 
+  border-radius: 5px;
+}
+
+/* スライダー */
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background: rgba(184, 229, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Firefox用 */
+#slider::-moz-range-thumb {
+  background: rgba(184, 229, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#slider::-moz-range-track {
+  height: 10px;
+  background: #393939;
+  border-radius: 5px;
 }

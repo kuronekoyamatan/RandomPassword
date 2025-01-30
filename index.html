@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>パスワードジェネレーター</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <p id="result"></p>
-    <button id="btn">パスワード生成</button>
-    <fieldset>
-      <legend>オプション</legend>
-        長さ<br><span id="pwLength">8</span>
-        <input type="range" id="slider" min = "8" max="24" value="8">
-      <label for="numbers">
-        数字
-        <input type="checkbox" id="numbers" name="num">
-      </label>
-      <label for="signs">
-        記号
-        <input type="checkbox" id="signs">
-      </label>
-      <label for="jp">
-        平仮名
-        <input type="checkbox" id="jp">
-      </label>
-    </fieldset>
-  </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>パスワードジェネレーター</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Kaisei+Opti&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <p id="result"></p>
+      <button id="btn">パスワードを作ってみる<img src="/yamatan.png" width="15%"></button>
+      <fieldset>
+        <legend>オプション</legend>
+        長さ<br /><span id="pwLength">8</span>
+        <input type="range" id="slider" min="8" max="24" value="8" />
+        <label for="numbers">
+          数字
+          <input type="checkbox" id="numbers" name="num" />
+        </label>
+        <label for="signs">
+          記号
+          <input type="checkbox" id="signs" />
+        </label>
+        <label for="jp">
+          平仮名
+          <input type="checkbox" id="jp" />
+        </label>
+      </fieldset>
+    </main>
 
-  <p class="text">JavaScript</p>
-  <script src="main.js"></script>
-</body>
+    <p class="text">JavaScript</p>
+    <script src="main.js"></script>
+  </body>
 </html>
